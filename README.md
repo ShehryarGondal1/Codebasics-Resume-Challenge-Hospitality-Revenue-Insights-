@@ -4,7 +4,8 @@ AtliQ Grands is a well-established hospitality company that owns multiple five-s
 
 __Problems we are trying to Solve__
 
-In recent times, AtliQ Grands has faced a decline in its market share and revenue due to strategic moves from competitors and ineffective decision-making in management. To tackle this issue, the managing director of AtliQ Grands has decided to incorporate "Business and Data Intelligence" to regain its market share and revenue. However, the company does not have an in-house data analytics team to provide insights from its historical data.
+In recent times, AtliQ Grands has faced a decline in its market share and revenue due to strategic moves from competitors and ineffective decision-making in management. To tackle this issue, the managing director of AtliQ Grands has decided to incorporate "Business and Data Intelligence" to regain its market share and revenue. However, the company does not have an in-house data analytics team to provide insights from its historical data. <br>
+
 __Main Goal__
 
 Their revenue management team had decided to hire a 3rd party service provider to provide them with insights from their historical data.
@@ -42,10 +43,8 @@ So, our goal is to make similar kind of dashboard.<br>
 
 
 1. __RevPar( Revenue Per Available room )__ : To get Revpar : the formula is : Total Revenue / Total Rooms  Available to sell.
-<br>
 Another formula is : ADR x Occupancy <br>
 Occupancy formula is : Total Rooms Occupied / Total Rooms Available
-
 Example : As number of rooms sold or utilized by the customers divided by number of available rooms so say you have a 100 room Hotel
 on Monday you had 50 customers check out so for your occupancy for Sunday would
 be 50 50 rooms sold divided by 100 available right that is as simple as that.
@@ -62,8 +61,8 @@ __Note : If your occupancy is 100 your ADR and RevPar will always be equal.__
 
 3. __Total Available rooms__ in hospitality domain are __SRN (Sellable Room night)__ or __DSRN(Daily Sellable Room Night)__. This is  another metric that would be very helpful to look at this would help us look at any specific issues room blocking issues maintenance issues in the future.
 
-For example right so let's assume another example of 100 room hotel and let's assume there is no issue in the hotel it's a fantastic Hotel everything is maintained perfectly so every day you have 100 Rooms to sell correct so if you say June June has 30 days that means every day you have 100 Rooms to sell so for the entire month you had three thousand rooms to sell correct 30
-into 100 that is 3 000 rooms to sell so that would be the sellable room nights for June and if you want to look at the
+For example right so let's assume another example of 100 room hotel and let's assume there is no issue in the hotel it's a fantastic Hotel everything is maintained perfectly so every day you have 100 Rooms to sell correct so if you say June has 30 days that means every day you have 100 Rooms to sell so for the entire month you had three thousand rooms to sell correct 30
+into 100 that is 3000 rooms to sell so that would be the sellable room nights for June and if you want to look at the
 dairy level you would divide it by 30 and that number would be 100 so that would be DSR end in that case these are
 daily sellable room lights okay which one would be more beneficial for you to look at DSR and or srn I would like to
 look at DSR in this current view that would be really helpful.
@@ -151,10 +150,10 @@ __Power Query steps for tables:__
 
 __Data Modeling__
 
-![image](images/Data%20modeling_one.PNG)
+![image](Images/Data%20modeling_one.PNG)
 <br>
 
-![image](images/Data%20modeling_2.PNG)
+![image](Images/Data%20modeling_2.PNG)
 <br>
 
 # <h2 id="link4"> Building DAX </h2>
@@ -185,7 +184,7 @@ As, there are __26 measures__. To check the detail of all measures visit __metri
 __Dashboard Design__ 
 <br>
 
-![image](images/Dashboard_design.PNG)
+![image](Images/Dashboard_design.PNG)
 <br>
 
 If you want to see my __Visuals__ visit to my __Revenue Insights in Hospitality domain_Shehryar_Gondal__ <br>
